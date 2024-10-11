@@ -1,4 +1,4 @@
-import Footer from "../Footer/Footer";
+
 import HeroSection from "../HeroSection/HeroSection";
 import MainContent from "../MainContent/MainContent";
 
@@ -10,7 +10,7 @@ const HomePage = () => {
      <HeroSection/>
      <MainContent/>
      <ProductGrid/>
-     <Footer/>
+    
     </div>
   );
 };

@@ -1,7 +1,9 @@
 .maincontentWrapper {
   margin-top: 150px;
+  background-color: white;
 }
 .maincontentdiv {
+  background-color: white;
   display: flex;
   justify-content: space-between;
   width: 1248px;
@@ -32,7 +34,7 @@
   text-align: right;
 }
 .optionsdropdown {
-  background-color: white;
+  
   width: 230px;
   height: 40px;
   border-radius: 4px;

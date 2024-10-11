@@ -11,7 +11,7 @@ import linkedin from "../../assets/linkedin.png";
 
 const Footer = () => {
   return (
-    <div className='styles.footerWrapper'>
+    <div className='footerWrapper'>
       <div className='firstUpperContainer'>
         <div className="first_box">
           <div className="heading_box">
