@@ -1,7 +1,8 @@
-.homePages {
+.heroContainer {
   width: 721px;
   height: 168px;
   display: flex;
+  background-color: #FFFFFF;
 }
 
 .headingDiv {

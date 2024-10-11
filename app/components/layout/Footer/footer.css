@@ -1,0 +1,161 @@
+.footerWrapper {
+  width: 100%;
+  max-width: 1440px;
+  padding: 80px;
+  margin: 0 auto;
+}
+
+.firstUpperContainer {
+  display: flex;
+
+  gap: 20px;
+}
+.first_headings {
+  font-family: Simplon Norm;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+.first_heading {
+  font-family: Simplon Norm;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.first_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.second_subheading {
+  font-family: Simplon Norm;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  margin-bottom: 10px;
+}
+.minidesc {
+  font-family: Simplon Norm;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  text-align: left;
+}
+.inputContainer {
+  display: flex;
+  width: 584px;
+  height: 48px;
+  gap: 10px;
+}
+.inputField {
+  width: 384px;
+  height: 47px;
+  padding: 14px 24px 14px 24px;
+  gap: 8px;
+}
+
+.inputbox {
+  width: Fixed (184px) px;
+  height: Fixed (48px) px;
+  left: 400px;
+  gap: 0px;
+  border-radius: 5px;
+  border: 1.14px 0px 0px 0px;
+  opacity: 0.3px;
+}
+
+.third_box {
+  width: 166px;
+  height: 260px;
+}
+.second_heading {
+  font-family: Simplon Norm;
+  font-size: 24.71px;
+  font-weight: 700;
+  line-height: 29.66px;
+  margin-bottom: 30px;
+}
+
+.second_subheading {
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+.third_heading {
+  font-family: Simplon Norm;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.imgae-icons {
+  margin-bottom: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+.image_container {
+  width: 376px;
+  height: 35px;
+  gap: 8px;
+  display: flex;
+}
+
+
+
+@media (min-width: 768px) {
+  .firstUpperContainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .secondContainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+hr {
+  margin: 20px 0;
+}
