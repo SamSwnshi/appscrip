@@ -1,1 +1,4 @@
-
+.app{
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
