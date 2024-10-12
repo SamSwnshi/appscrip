@@ -6,7 +6,7 @@ import paypal from "../../assets/paypal.png";
 import amex from "../../assets/amex.png";
 import apple from "../../assets/apple.png";
 import pay from "../../assets/pay.png";
-import instagram from "../../assets/insta.png";
+import instagram from "../../assets/Insta.png";
 import linkedin from "../../assets/linkedin.png";
 
 const Footer = () => {
