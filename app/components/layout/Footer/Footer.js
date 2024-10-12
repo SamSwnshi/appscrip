@@ -6,7 +6,7 @@ import paypal from "../../assets/paypal.png";
 import amex from "../../assets/amex.png";
 import apple from "../../assets/apple.png";
 import pay from "../../assets/pay.png";
-import insta from "../../assets/insta.png";
+import instagram from "../../assets/insta.png";
 import linkedin from "../../assets/linkedin.png";
 
 const Footer = () => {
@@ -66,7 +66,7 @@ const Footer = () => {
           <div className="fourth_box">
             <h1 className="third_heading">FOLLOW US</h1>
             <div className="imgae-icons">
-              <Image src={insta} width="32px" height="32px" alt="instagram" />
+              <Image src={instagram} width="32px" height="32px" alt="instagram" />
               <Image src={linkedin} width="32px" height="32px" alt="linkdin" />
             </div>
           </div>
