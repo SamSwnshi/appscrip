@@ -102,3 +102,25 @@
   letter-spacing: 1px;
   text-align: left;
 }
+
+@media (max-width: 768px) {
+  .tabContainer {
+    display: flex; /* Show on mobile */
+    flex-direction: column;
+    align-items: center; /* Center items */
+  }
+
+  .tabsDetails {
+    flex-direction: column; /* Stack items vertically */
+    display: none; /* Hide by default */
+  }
+
+  .active .tabsDetails {
+    display: flex; /* Show when active */
+  }
+
+  .hamburger {
+    display: block; /* Show hamburger menu on mobile */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+}

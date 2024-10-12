@@ -40,7 +40,6 @@ const Navbar = () => {
           </div>
           <div className={style.mainLogo}>
             <Image src={Mainlogo} alt="Logo" width="107px" height="44px" />
-            {/* <p className={style.logoName}>LOGO</p> */}
           </div>
           <div className={style.headerIcons}>
             <Image src={Search} alt="element" width="16px" height=" 16px" />
